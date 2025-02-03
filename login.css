@@ -1,0 +1,185 @@
+/*Reset basic*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.login-box {
+    width: 100%;
+    height: 418px;
+    background-color: #FFFFFF;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.instagram-logo-box {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.instagram-logo-box img {
+    width: 175px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+form input {
+    width: 70%;
+    padding: 9px 0px 7px 8px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    background-color: #FAFAFA;
+}
+
+.login-box input:focus {
+    outline: none;
+    border: 1px solid gray;
+}
+
+.login-btn {
+    width: 70%;
+    padding: 7px;
+    border-radius: 6px;
+    border: none;
+    background-color: #4CB8F6;
+    color: #F8FDFE;
+    font-weight: bold;
+
+}
+
+
+.divider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    color: #606770;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0 10px;
+}
+
+.login-facebook {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #009AF2;
+    font-weight: bold;
+}
+
+.login-facebook:hover {
+    color: rgba(26, 23, 23, 0.966);
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.signup-prompt {
+    background-color: #FFFFFF;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    padding: 20px;
+}
+
+.signup-prompt a:first-child {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.signup-prompt .link-signup {
+    text-decoration: none;
+    color: #009AF2;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+.app-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.app-links img {
+    width: 133px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+
+}
+
+.links-footer ul {
+    display: flex;
+    gap: 10px;
+}
+
+.links-footer li {
+    list-style: none;
+}
+
+.links-footer a {
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: gray;
+}
